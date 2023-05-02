@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to top, #F6D9C7, #b2ece1);
+}
+
+h1 {
+    font-size: 26px;
+    color: #d2691e;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+
+
+.col-lg-2 {
+    margin: 0 auto;
+    position: relative;
+    top: 80%;
+    text-align: center;
+    color: #E26985;
+    display: grid;
+}
+
+.current-day {
+    font-weight: bold;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    padding: 1em;
+    color: #E26985;
+}
+
+.card {
+    margin-top: 20%;
+    padding: 1em;
+    border-radius: 15px 10px;
+    border: 3px solid #E26985;
+}
+
+button {
+    border-radius: 15px 10px;
+    border: 3px solid #d2b48c;
+    padding: 10px 10px;
+    color: #d2691e;
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(179, 218, 228);
+}
+
+.float-left {
+    display: grid;
+    grid-template-rows: 50px;
+}
+
+.float-righ {
+    display: grid;
+    grid-template-columns: 20px;
+    grid-template-rows: 50px;
+    position: relative;
+    top: 40%;
+    right: -40%;
+}

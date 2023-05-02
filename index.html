@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/w-4-styles.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <br />
+    <div id="app"></div>
+    <div class="container col-search">
+      <div class="container text-center">
+        <div class="row row-cols-2">
+          <form id="city-form">
+            <input
+              type="city"
+              id="city-search"
+              placeholder="Enter your city"
+              autofocus="on"
+            />
+            <input type="submit" value="🔍Search" />
+          </form>
+          <button>Current location</button>
+        </div>
+      </div>
+      <div class="container text-left">
+        <div class="row row-cols-lg-3">
+          <h1 id="special">Barcelona,Spain</h1>
+
+          <div class="float-left" width="40px" id="search-day">
+            <span class="current-day">
+              <p class="date" id="currentDate"></p>
+            </span>
+            <h2>
+              <p id="temperature-1">
+                17
+                <img
+                  src="fonts/sunny-icon-0.png"
+                  alt="icon"
+                  class="float-left"
+                  width="40px"
+                />
+              </p>
+              <p id="description"></p>
+              <span class="float-left-celcius" id="celcius">°C/</span>
+              <span class="float-left-fahrenheit" id="fahrenheit">°F</span>
+            </h2>
+          </div>
+
+          <span class="float-righ">
+            <p class="termo">Thermal sensation</p>
+            <p id="temperature-2">16°C</p>
+          </span>
+        </div>
+        <br />
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            <span id="humidity"> Precipitations: 67%</span>
+            <span id="wind"> Wind: 3km/h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: auto">
+        <div class="card-body">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">Tue</div>
+              <div class="col">Wed</div>
+              <div class="col">Thu</div>
+              <div class="col">Fri</div>
+              <div class="col">Sat</div>
+            </div>
+
+            <div class="row">
+              <div class="col">☁️</div>
+              <div class="col">🌥</div>
+              <div class="col">☀️</div>
+              <div class="col">🌤</div>
+              <div class="col">☀️</div>
+            </div>
+            <div class="row">
+              <div class="col">18°C</div>
+              <div class="col">20°C</div>
+              <div class="col">20°C</div>
+              <div class="col">21°C</div>
+              <div class="col">20°C</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="src/index.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
