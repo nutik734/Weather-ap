@@ -13,9 +13,7 @@ h2 {
     font-size: 20px;
     position: relative;
     margin-top: 25%;
-    top: 10px;
-    left: 30px;
-
+    left: 10%;
 }
 
 
@@ -64,8 +62,6 @@ button:hover {
 .float-righ {
     display: grid;
     grid-template-columns: 20px;
-    grid-template-rows: 50px;
-    position: relative;
-    top: 40%;
-    right: -30%;
+    grid-template-rows: 20px;
+    padding: 20px;
 }
