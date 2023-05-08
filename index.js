@@ -36,7 +36,7 @@ let day = days[now.getDay()];
   ];
   let month = months[now.getMonth()];
 
-currentDate.innerHTML= `${day},${date} of${month}, ${hours}:${minutes}`;
+currentDate.innerHTML= `${day}, ${date} of ${month}, ${hours}:${minutes}`;
 
 function cityInput(event){
    event.preventDefault();

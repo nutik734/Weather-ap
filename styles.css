@@ -12,8 +12,9 @@ h1 {
 h2 {
     font-size: 20px;
     position: relative;
+    margin-top: 25%;
     top: 10px;
-    left: 20px;
+    left: 30px;
 
 }
 
@@ -29,10 +30,10 @@ h2 {
 
 .current-day {
     font-weight: bold;
-    top: 20%;
+    margin-top: 20%;
     left: 40%;
     position: absolute;
-    padding: 1em;
+    padding: 2em;
     color: #E26985;
 }
 
@@ -40,7 +41,7 @@ h2 {
     margin-top: 20%;
     padding: 1em;
     border-radius: 15px 10px;
-    border: 3px solid #E26985;
+    border: 3px solid #d2b48c;
 }
 
 button {
@@ -66,5 +67,5 @@ button:hover {
     grid-template-rows: 50px;
     position: relative;
     top: 40%;
-    right: -40%;
+    right: -30%;
 }
